@@ -29,6 +29,9 @@ void printPrime(int n)
 
 int main()
 {
-    int n = 50;
+    int n;
+    cout << "Enter Interger: " << endl;
+
+    cin >> n;
     printPrime(n);
 }
